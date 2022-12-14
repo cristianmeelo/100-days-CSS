@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    
+    
+    background-color: #fff;
+    font-family: "Courier New", "Courier", sans-serif;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .itemsWrapper{
+    height: 400px;
+    width: 400px;
+  }
+  
+  @keyframes gradient{  
+    to{
+      background-position: 100% 100%;
+    }
+  }
+  
+  .gradientControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
+  
+    animation: gradient 5s linear infinite;
+    background: linear-gradient(225deg, #43389F, #4ec6ca, #43389F, #4ec6ca) no-repeat;
+    background-size: 100% 500%;
+  }
+  
+  .daysQuantity{
+    position: relative;
+    width: 244px;
+    height: 105px;
+    
+    box-sizing: border-box;
+  }
+  
+  .daysQuantity > div{
+    position: absolute;
+    
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2)
+  }
+  
+  .daysQuantity div:nth-child(1){
+    width: 24px;
+    height: 40px;
+    
+    top: 4px;
+
+    transform: rotate(50deg);    
+    background-color: #fff;
+    
+    border-radius: 3px;
+  }
+  
+  .daysQuantity div:nth-child(2){
+    width: 28px;
+    height: 105px;
+    
+    background-color: #fff;
+    left: 20px;
+    
+    z-index: 2;
+    
+    border-radius: 3px;
+  }
+  
+  .daysQuantity div:nth-child(3){
+    width: 105px;
+    height: 105px;
+    
+    
+    border: 1.5rem #fff solid;
+    border-radius: 4rem;
+    left: 40px;
+    
+    z-index: 1;
+  }
+  
+  .daysQuantity div:nth-child(4){
+    width: 105px;
+    height: 105px;
+    
+    
+    border: 1.5rem #fff solid;
+    border-radius: 4rem;
+    right: 0;
+  }
+  
+  .days{
+    text-align: center;
+    position: relative;
+
+    width: 244px;
+    font-size: 5.8rem;
+    line-height: 80px;
+  }
+  
+  .challenge{
+    position: relative;
+    text-align: center;
+
+    width: 244px;
+    font-size: 1.7rem;
+    line-height: 13px;
+  }
