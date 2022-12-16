@@ -13,3 +13,9 @@ Code:
 
 Code:
 [StackBlitz](https://stackblitz.com/edit/web-platform-q7sjme?file=index.html,styles.css)
+
+# 3
+<img src="https://media.giphy.com/media/sFw6MFqf3uzzWkdxDT/giphy.gif">
+
+Code:
+[StackBlitz](https://stackblitz.com/edit/web-platform-mha5fv?file=styles.css)
