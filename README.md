@@ -24,4 +24,9 @@ Code:
 <img src="https://media.giphy.com/media/rnBDb8J9qy05rdjW6l/giphy.gif">
 
 Code:
-[StackBlitz](https://stackblitz.com/edit/web-platform-vwwfeu?file=index.html)
+[StackBlitz]("https://stackblitz.com/edit/web-platform-vwwfeu?file=index.html")
+
+# 5
+<img   width="65%" src="./day5/day5-image.png">
+
+[StackBlitz]("https://stackblitz.com/edit/web-platform-7syiqs?file=styles.css,index.html")
