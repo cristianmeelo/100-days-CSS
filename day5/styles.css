@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,500,600,400);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #42a7a1;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  position: relative;
+  height: 220px;
+  width: 280px;
+  background: #fff;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.card__head {
+  padding: 16px;
+  background: #f1ba64;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.card__head span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.card__head small {
+  font-size: 11px;
+
+  font-weight: 500;
+}
+.right {
+  align-items: flex-end;
+}
+
+.card__body {
+  position: relative;
+  height: calc(100% - 60px);
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.parameter {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+.parameter small {
+  position: relative;
+  font-size: 9px;
+  padding: 6px;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  color: #737373;
+}
+.parameter .view:before,
+.purchas:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 11px;
+  left: -14px;
+  top: 9px;
+  border-radius: 3px;
+}
+.view:before {
+  background: #fa7373;
+}
+.purchas:before {
+  background: #7ba2ff;
+}
+.days {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 9px;
+  color: #737373;
+  padding: 10px 0 14px;
+  border-top: 1px solid #ddd;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: auto 0;
+  position: relative;
+  top: 50%;
+}
+.statistics {
+  position: relative;
+  flex-grow: 1;
+  padding: 6px 0;
+}
+.statistics .value {
+  position: absolute;
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+  bottom: 0;
+}
+.points {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+}
+.point {
+  position: relative;
+  height: 6px;
+  width: 6px;
+  background: blue;
+  border-radius: 50%;
+}
+.red .point {
+  background: #fa7373;
+}
+.blue .point {
+  background: #7ba2ff;
+}
+
+.red .point--1 {
+  bottom: 30px;
+}
+.red .point--2 {
+  bottom: 60px;
+}
+.red .point--3 {
+  bottom: 35px;
+}
+.red .point--4 {
+  bottom: 45px;
+}
+.red .point--5 {
+  bottom: 30px;
+}
+.red .point--6 {
+  bottom: 35px;
+}
+.red .point--7 {
+  bottom: 65px;
+}
+.blue .point--1 {
+  bottom: 15px;
+}
+.blue .point--2 {
+  bottom: 30px;
+}
+.blue .point--3 {
+  bottom: 10px;
+}
+.blue .point--4 {
+  bottom: 35px;
+}
+.blue .point--5 {
+  bottom: 15px;
+}
+.blue .point--6 {
+  bottom: 15px;
+}
+.blue .point--7 {
+  bottom: 55px;
+}
