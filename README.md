@@ -27,20 +27,19 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mha5fv?file=styles.c
 <p>The best are always websites that do not need a loading status. If they do, here would be a calming one.</p>
 <img src="https://media.giphy.com/media/rnBDb8J9qy05rdjW6l/giphy.gif">
 
-Code: [StackBlitz]("https://stackblitz.com/edit/web-platform-vwwfeu?file=index.html")
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-vwwfeu?file=index.html)
 <br></br><br></br>
 
 # # 5 - STATISTICS
 <p>In a world of numbers, it is important to be able to interpret them correctly. Beautiful statistics help to capture these data.</p>
 <img   width="65%" src="./day5/day5-image.png">
 
-Code: [StackBlitz]("https://stackblitz.com/edit/web-platform-7syiqs?file=styles.css,index.html")
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-7syiqs?file=styles.css,index.html)
 <br></br><br></br>
 
 # # 6 - PROFILE 
 <p>Who of you knows how many social media profiles you have already created? For a refreshing twist, you can also create one yourself.</p>
 <img src="https://media.giphy.com/media/LhJKuHfY7fnAffAPU4/giphy.gif">
 
-Code: [StackBlitz]("https://stackblitz.com/edit/web-platform-dpkzjx?file=index.html,styles.css")
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-dpkzjx?file=index.html,styles.css)
 <br></br><br></br>
-
