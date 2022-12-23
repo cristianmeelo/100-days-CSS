@@ -30,3 +30,8 @@ Code:
 <img   width="65%" src="./day5/day5-image.png">
 
 [StackBlitz]("https://stackblitz.com/edit/web-platform-7syiqs?file=styles.css,index.html")
+
+# 6 
+<img   width="65%" src="https://media.giphy.com/media/LhJKuHfY7fnAffAPU4/giphy.gif">
+
+[StackBlitz]("https://stackblitz.com/edit/web-platform-dpkzjx?file=index.html,styles.css")
