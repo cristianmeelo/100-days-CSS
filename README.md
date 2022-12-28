@@ -57,4 +57,12 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-dpkzjx?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-xhssrn?file=styles.css,index.html)
 <br></br><br></br>
+
+# # 8 - METABALLS
+
+<p>At first glance impossible to implement with CSS, but filters make this possible too.</p>
+<img src="https://media.giphy.com/media/3rxSVcN1zYFVGKdLng/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-i1arie?file=index.html,styles.css)
 <br></br><br></br>
+
