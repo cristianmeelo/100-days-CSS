@@ -66,7 +66,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-xhssrn?file=styles.c
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-i1arie?file=index.html,styles.css)
 <br></br><br></br>
 
-# # 8 - RAINY NIGHT
+# # 9 - RAINY NIGHT
 
 <p>The perfect time of day and the perfect weather to program in peace. The raindrops even shatter on the ground.</p>
 <img src="https://media.giphy.com/media/9a4lKs4jnGsvcXION9/giphy.gif">
@@ -74,3 +74,10 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-i1arie?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lqyqej?file=index.html)
 <br></br><br></br>
 
+# # 10 - WATCH
+
+<p>Classic, noble, modern or playful? What do you want your favorite watch to look like?.</p>
+<img src="https://media.giphy.com/media/uelrYwcpCwuHSdmlFI/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-aqhndf?file=index.html,styles.css)
+<br></br><br></br>
