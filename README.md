@@ -76,8 +76,19 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lqyqej?file=index.ht
 
 # # 10 - WATCH
 
-<p>Classic, noble, modern or playful? What do you want your favorite watch to look like?.</p>
+<p>Classic, noble, modern or playful? What do you want your favorite watch to look like?</p>
 <img src="https://media.giphy.com/media/uelrYwcpCwuHSdmlFI/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-aqhndf?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 11 - WALKING BOOTS
+
+<p>These boots are made for walking. Where are they going and for how long?</p>
+<img src="https://media.giphy.com/media/2GiWfekniffTK8pdPF/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-yhvama?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
