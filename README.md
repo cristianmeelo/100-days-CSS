@@ -90,5 +90,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-aqhndf?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-yhvama?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 12 - TOOLTIP
+
+<p>I'm quite sure, you already know what obsession means. But you can look it up anyways</p>
+<img src="https://media.giphy.com/media/zwiXZ6HCe2IXYC0Lcp/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-9q4dx4?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
