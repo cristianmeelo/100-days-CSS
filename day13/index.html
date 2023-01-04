@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/44beab3741.js"
+      crossorigin="anonymous"></script>
+    <title>day13</title>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="profiles-container" id="profiles-container"></div>
+      <div class="profile-details" id="profile-details">
+        <div class="btn-close" id="btn-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="profile-header" id="profile-header"></div>
+        <div class="profile-avatar" id="profile-avatar"></div>
+        <div class="profile-data">
+          <div class="username" id="username"></div>
+          <div class="social"><i class="fa-solid fa-phone"></i></div>
+          <div class="social"><i class="fa-solid fa-comment"></i></div>
+          <div class="social"><i class="fa-solid fa-heart"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const users = [
+        {
+          id: "01",
+          firstName: "Julia",
+          lastName: "Toch",
+          picture: `https://images.unsplash.com/photo-1598346762291-aee88549193f?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk0NTU&ixlib=rb-4.0.3&q=80`,
+          header: `https://images.unsplash.com/photo-1597910037283-e728413e079c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk4NDg&ixlib=rb-4.0.3&q=80&w=400`,
+        },
+        {
+          id: "02",
+          firstName: "Brian",
+          lastName: "Weasley",
+          picture: `https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk0NTU&ixlib=rb-4.0.3&q=80`,
+          header: `https://images.unsplash.com/photo-1571125681108-52fcb1fdace2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk4NDg&ixlib=rb-4.0.3&q=80&w=400`,
+        },
+        {
+          id: "03",
+          firstName: "Anna",
+          lastName: "Steele",
+          picture: `https://images.unsplash.com/photo-1603992033386-8e81601eb624?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk2NjI&ixlib=rb-4.0.3&q=80`,
+          header: `https://images.unsplash.com/photo-1615414046522-8a61c8f14cbb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MjAxMzA&ixlib=rb-4.0.3&q=80`,
+        },
+        {
+          id: "04",
+          firstName: "Emma",
+          lastName: "Peterson",
+          picture: `https://images.unsplash.com/photo-1649541608926-330d4ce4cbe2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk3MTQ&ixlib=rb-4.0.3&q=80`,
+          header: `https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzI0MTk4Nzc&ixlib=rb-4.0.3&q=80&w=400`,
+        },
+      ];
+
+      (() => {
+        // Build UI
+        const $profileContainer = document.getElementById("profiles-container");
+        $profileContainer.innerHTML = users
+          .map((user) => {
+            return `
+      <div class="profile">
+        <img class="profile-image" src="${user.picture}" alt="profile">
+        <i class="fa-solid fa-plus" data-user-id="${user.id}"></i>
+      </div>
+      `;
+          })
+          .join("");
+
+        // Add listener for showing user details
+        const $profileDetails = document.getElementById("profile-details");
+        const $profileHeader = document.getElementById("profile-header");
+        const $profileAvatar = document.getElementById("profile-avatar");
+        const $username = document.getElementById("username");
+        const $btnsShow = document.querySelectorAll(".fa-solid.fa-plus");
+        for (let $btn of $btnsShow) {
+          $btn.addEventListener("click", (e) => {
+            const userId = e.currentTarget.dataset.userId;
+            const user = users.find((user) => user.id === userId);
+            // Add header image
+            $profileHeader.innerHTML = `<img src="${user.header}" alt="header" />`;
+            // Add avatar
+            $profileAvatar.innerHTML = `<img src="${user.picture}" alt="avatar" />`;
+            // Add user name
+            $username.innerHTML = `${user.firstName} ${user.lastName}`;
+            // Show details
+            $profileDetails.classList.toggle("active");
+          });
+        }
+
+        // Add listener for closing user details
+        const btnClose = document.getElementById("btn-close");
+        btnClose.addEventListener("click", () => {
+          $profileDetails.classList.toggle("active");
+        });
+      })();
+    </script>
+  </body>
+</html>
