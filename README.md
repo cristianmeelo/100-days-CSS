@@ -107,4 +107,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-uaeymk?file=index.ht
 <br></br><br></br>
 
 
+# # 14 - BYCICLOPTER
+
+<p>Which side of the card do you want to use? Either drive or fly to work in the morning?</p>
+<img width="480px" src="https://media.giphy.com/media/9MUMB4gGJMLcZaWCaj/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lgqkz7?file=index.html,styles.css)
+<br></br><br></br>
+
+
 
