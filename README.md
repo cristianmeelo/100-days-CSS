@@ -98,7 +98,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-yhvama?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-9q4dx4?file=index.html,styles.css)
 <br></br><br></br>
 
-# # 12 - USER GALLERY
+# # 13 - USER GALLERY
 
 <p>An idea for a transition between user overview and profile page.</p>
 <img width="480px" src="https://media1.tenor.com/images/a6d50d6071bbf8bdda880ab90d468546/tenor.gif?itemid=27343393">
