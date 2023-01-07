@@ -1,0 +1,148 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(
+    177deg,
+    rgba(205, 167, 15, 1) 40%,
+    rgba(0, 255, 192, 1) 100%
+  );
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.header {
+  position: relative;
+  font-weight: 600;
+  color: #808080;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  width: 300px;
+  height: 270px;
+  background: #fff;
+  display: block;
+  overflow: hidden;
+}
+
+.upload {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+form {
+  height: 100%;
+}
+
+.drop {
+  position: relative;
+  margin: 1.5rem auto;
+  width: 80px;
+  height: 75px;
+  border: 2px dashed #808080;
+  cursor: pointer;
+}
+.drop input {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.drop.loading {
+  border: none;
+}
+.fa-solid {
+  margin: 1rem auto;
+  font-size: 3rem;
+  color: #ccc;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.btn {
+  position: relative;
+  top: 30px;
+  left: -3px;
+  font-size: 0.85rem;
+  height: 30px;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: White;
+  border-radius: 15px;
+  background: linear-gradient(
+    343deg,
+    rgba(205, 167, 15, 1) 40%,
+    rgba(0, 255, 192, 1) 100%
+  );
+}
+.btn:hover {
+  box-shadow: 2px 2px 4px 2px #bfbfbf;
+  cursor: pointer;
+}
+.loader {
+  display: none;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -3px;
+  background-color: #6ece3b;
+  animation: line 3s ease-out forwards;
+}
+.loader.loading {
+  display: block;
+}
+@keyframes line {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.fa-rotate {
+  font-size: 3rem;
+  transform: translateX(-50%) translateY(-50%);
+  animation: rotate 3s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(359deg);
+  }
+}
