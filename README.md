@@ -117,10 +117,18 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lgqkz7?file=index.ht
 
 # # 15 - UPLOAD
 
-<p>Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked</p>
+<p>Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked.</p>
 <img src="https://media.giphy.com/media/3Hbt7KQMd9TZvg9wZH/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ymn42h?file=index.html,styles.css)
+<br></br><br></br>
+
+# # 16 - BLOBBY
+
+<p>It appears, wobbles, changes its shape and disappears again. Just like that.</p>
+<img src="https://media.giphy.com/media/TM6cnfjAXbx6CzAdA6/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2nlu4w?file=index.html,styles.css)
 <br></br><br></br>
 
 
