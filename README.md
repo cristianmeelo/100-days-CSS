@@ -139,6 +139,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2nlu4w?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bhewzg?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 18 - ELASTIC
+
+<p>I thought for a long time about the best way to achieve this effect. In the end, the solution was easier than expected.</p>
+<img src="https://media.giphy.com/media/2TBghTi099erzUkl2D/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-iwducr?file=index.html)
+<br></br><br></br>
+
 
 
 
