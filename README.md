@@ -131,6 +131,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ymn42h?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2nlu4w?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 16 - PENROSE TRIANGLE
+
+<p>CSS makes even the impossible possible. Can you find out how it was done?</p>
+<img src="https://media.giphy.com/media/h0lLxvpYrih0CMEI6W/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bhewzg?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
