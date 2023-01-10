@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stripes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.stripes .stripe {
+  width: 590px;
+  height: 3px;
+  position: absolute;
+  background: Black;
+  transform: rotate(45deg);
+  transform-origin: bottom left;
+  top: 9px;
+}
+.stripes .strip-1 {
+  left: 91%;
+}
+.stripes .strip-2 {
+  left: 83%;
+}
+.stripes .strip-3 {
+  left: 75%;
+}
+.stripes .strip-4 {
+  left: 67%;
+}
+.stripes .strip-5 {
+  left: 59%;
+}
+.stripes .strip-6 {
+  left: 51%;
+}
+.stripes .strip-7 {
+  left: 43%;
+}
+.stripes .strip-8 {
+  left: 35%;
+}
+.stripes .strip-9 {
+  left: 27%;
+}
+.stripes .strip-10 {
+  left: 19%;
+}
+.stripes .strip-11 {
+  left: 11%;
+}
+.stripes .strip-12 {
+  left: 3%;
+}
+.stripes .strip-13 {
+  left: -5%;
+}
+.stripes .strip-14 {
+  left: -13%;
+}
+.stripes .strip-15 {
+  left: -21%;
+}
+.stripes .strip-16 {
+  left: -29%;
+}
+.stripes .strip-17 {
+  left: -37%;
+}
+.stripes .strip-18 {
+  left: -45%;
+}
+.stripes .strip-19 {
+  left: -53%;
+}
+.stripes .strip-20 {
+  left: -61%;
+}
+.stripes .strip-21 {
+  left: -69%;
+}
+.stripes .strip-22 {
+  left: -77%;
+}
+.stripes .strip-23 {
+  left: -85%;
+}
+.stripes .strip-24 {
+  left: -93%;
+}
+.stripes .strip-25 {
+  left: -101%;
+}
+.stripes .strip-26 {
+  left: -109%;
+}
+.stripes .strip-27 {
+  left: -117%;
+}
+.stripes .strip-28 {
+  left: -125%;
+}
+.stripes .strip-29 {
+  left: -133%;
+}
+.stripes .strip-30 {
+  left: -141%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center .image {
+  background: #353535;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px Black;
+}
+.center .image #svgelem {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+.center .image #svgelem polygon {
+  transition: fill 0.3s ease-in-out;
+}
+.center .image #svgelem .light {
+  fill: White;
+}
+.center .image #svgelem .medium {
+  fill: #ccc;
+}
+.center .image #svgelem .dark {
+  fill: #aaa;
+}
+.center .image #svgelem:hover .light {
+  fill: #aaa;
+}
+.center .image #svgelem:hover .medium {
+  fill: #fff;
+}
+.center .image #svgelem:hover .dark {
+  fill: #ccc;
+}/*# sourceMappingURL=styles.css.map */

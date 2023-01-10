@@ -1,0 +1,91 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stripes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+
+  .stripe {
+    width: 590px;
+    height: 3px;
+    position: absolute;
+    background: Black;
+    transform: rotate(45deg);
+    transform-origin: bottom left;
+    top: 9px;
+  }
+  @for $i from 1 through 30 {
+    .strip-#{$i} {
+      left: (99-$i * 8) +#{"%"};
+    }
+  }
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .image {
+    background: #353535;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px Black;
+
+    #svgelem {
+      position: absolute;
+      top: 50px;
+      left: 70px;
+
+      polygon {
+        transition: fill 0.3s ease-in-out;
+      }
+      .light {
+        fill: White;
+      }
+      .medium {
+        fill: #ccc;
+      }
+      .dark {
+        fill: #aaa;
+      }
+      &:hover {
+        & .light {
+          fill: #aaa;
+        }
+        & .medium {
+          fill: #fff;
+        }
+        & .dark {
+          fill: #ccc;
+        }
+      }
+    }
+  }
+}
