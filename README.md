@@ -147,6 +147,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bhewzg?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-iwducr?file=index.html)
 <br></br><br></br>
 
+# # 19 - SLIDER WITH RADIO BUTTON
+
+<p>Why use JavaScript when you can use CSS? Selectors can be wildly combined with each other.</p>
+<img src="https://media.giphy.com/media/djzy84AG6PS535uSTL/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bbcozo?file=index.html,styles.css)
+<br></br><br></br>
 
 
 
