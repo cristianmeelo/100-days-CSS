@@ -155,6 +155,18 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-iwducr?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bbcozo?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 20 - SEND EMAIL
+
+<p>Surprise your visitors with a nice animation instead of a simple "request sent".</p>
+<img src="https://media.giphy.com/media/C0n06OfBkFad9cKEVj/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ewbw92?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
 
 
 
