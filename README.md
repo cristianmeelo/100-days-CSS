@@ -163,7 +163,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bbcozo?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ewbw92?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 21 - PAC-MAN
 
+<p>Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka…</p>
+<img src="https://media.giphy.com/media/G7ptu14XNVtY7Nerpw/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-p4ep1u?file=index.html,styles.css)
+<br></br><br></br>
 
 
 
