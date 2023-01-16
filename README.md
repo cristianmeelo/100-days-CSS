@@ -171,6 +171,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ewbw92?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-p4ep1u?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 22 - FITNESS TRACKER
+
+<p>Don't sit on your chair all day long. Get up, jump, run, exercice and burn some calories.</p>
+<img src="https://media.giphy.com/media/w3Kdlw1LWXRCmBVn75/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-tymbsm?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
