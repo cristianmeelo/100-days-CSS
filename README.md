@@ -179,6 +179,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-p4ep1u?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-tymbsm?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 23 - ANIMATED TYPOGRAPHY
+
+<p>Some big, bold and beautiful animated typography will enhance every boring header section.</p>
+<img src="https://media.giphy.com/media/7Bc38N1pCKKcmIwwqF/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-qycc2u?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
