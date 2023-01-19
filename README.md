@@ -193,3 +193,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-qycc2u?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jjyyst?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 25 - MAP MARKER
+
+<p>Did I just placed a marker in the middle of some water to get a nice color contrast? Maybe. Click on it for a nice transition.</p>
+<img src="https://media.giphy.com/media/ynOOV5Krm3iyod9vwe/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-tas6aq?file=index.html,styles.css)
+<br></br><br></br>
