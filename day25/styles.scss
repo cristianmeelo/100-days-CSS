@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #4599ff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+svg:nth-child(1){
+  position: absolute;
+  fill: #0084ec;
+  z-index: -1;
+}
+
+.mark{
+  position: absolute;
+  width: 48px;
+  height: 72px;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.mark svg{
+  fill: #FFCC30;
+  transform: translateY(-10px);
+  animation: mark 1s linear infinite alternate;
+}
+
+.shadow{
+  position: absolute;
+  top: 75px;
+  left: 9px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #0000004a;
+  transform: rotateX(-70deg);
+  animation: shadow 1s linear infinite alternate;
+}
+@keyframes mark{
+  to{
+  transform: translateY(0px);   
+  }
+}
+@keyframes shadow{
+  to{
+  transform: rotateX(-70deg) scale(0.7);
+  }
+}
+
+
+.box{
+  width: 240px;
+  height: 190px;
+  background: whitesmoke;
+  z-index: 2;
+  transition: 0.5s;
+  transform: rotateY(90deg);
+  border-radius: 2px;
+  box-shadow:0 5px 10px -5px black
+}
+
+.box img{
+  max-width: 100%;
+}
+.head{
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.address{
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.button{
+  font-size: 12px;
+  color: #1F8DE4;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 50%;
+  align-items: center;
+}
+
+.route{
+  left: 50%;
+}
+
+.divide{
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  background:#1F8DE4;
+  z-index: 6;
+}
