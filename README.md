@@ -201,3 +201,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jjyyst?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-tas6aq?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 26 - MOTIVATIONAL MODAL
+
+<p>What's worse than a motivational quote? Three motivational quotes... so don't focus on the text and click through them quickly.</p>
+<img src="https://media.giphy.com/media/RbRrlkAoCKWIQ923fm/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.html,styles.css)
+<br></br><br></br>
