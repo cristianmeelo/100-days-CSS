@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #C7D6E1;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.text-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.top {
+    background-image: linear-gradient(45deg, #fff 25%, #fff 89%, #8391A1 89%, #8391A1 100%);
+    width: 100%;
+    height: 110px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #616E7D;
+    font-size: 12px;
+}
+
+.number {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.top h3{
+   margin-bottom: 15px;
+}
+
+.top .body {
+    width: 175px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3AA6FB;
+    color: #fff;
+    height: 40px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.text-1 {
+    z-index: 3;
+}
+.text-2, .text-3 {
+    opacity: 0;
+    z-index: 0;
+}
+
+.show {
+    animation: show 2s forwards;
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+        z-index: 0;
+        transform: scale(.8);
+    }
+
+    70% {
+        opacity: 1;
+        z-index: 3;
+    }
+
+    100% {
+        opacity: 1;
+        z-index: 3;
+        transform: scale(1);
+    }
+
+}
+
+.hidden {
+    animation: hidden 1s forwards;
+}
+
+@keyframes hidden {
+    0%{
+        opacity: 1;
+        z-index: 3;
+        transform: scale(1);
+    }
+
+    70% {
+        opacity: 0;
+        z-index: 0;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 0;
+        transform: scale(1.2);
+    }
+
+}

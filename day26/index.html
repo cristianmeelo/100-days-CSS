@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>DAY26</title>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="center">
+        <div class="text">
+          <div class="text-content text-1">
+            <div class="top">
+              <h3>The couch</h3>
+              <p class="body">
+                If you want to grow, get outside your comfort zone.
+              </p>
+              <p class="number">1</p>
+            </div>
+            <div class="button">OK</div>
+          </div>
+          <div class="text-content text-2">
+            <div class="top">
+              <h3>Failing is learning</h3>
+              <p class="body">
+                Pick yourself up, dust yourself off, and start again..
+              </p>
+              <p class="number">2</p>
+            </div>
+            <div class="button">OK</div>
+          </div>
+          <div class="text-content text-3">
+            <div class="top">
+              <h3>Flowers and rainbows</h3>
+              <p class="body">
+                Always be yourself, unless you can be a unicorn.
+              </p>
+              <p class="number">3</p>
+            </div>
+            <div class="button">OK</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const textContent = document.querySelectorAll(".text-content");
+    const button = document.querySelectorAll(".button");
+
+    for (let i = 0; i <= 2; i++) {
+      button[i].onclick = () => {
+        if (i == 2) {
+          textContent[i].classList.add("hidden");
+          textContent[i].classList.remove("show");
+          textContent[0].classList.add("show");
+          textContent[0].classList.remove("hidden");
+        } else {
+          textContent[i].classList.add("hidden");
+          textContent[i].classList.remove("show");
+          textContent[i + 1].classList.add("show");
+          textContent[i + 1].classList.remove("hidden");
+        }
+      };
+    }
+  </script>
+</html>
