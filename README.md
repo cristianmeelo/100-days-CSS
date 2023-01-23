@@ -209,3 +209,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-tas6aq?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 27 - CHECKLIST
+
+<p>What's the great thing about working through your to-do list? That's right, the relieving feeling when you can check off the tasks.</p>
+<img src="https://media.giphy.com/media/GIXxpazPuBOXX4YDmt/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.html,styles.css)
+<br></br><br></br>
