@@ -218,10 +218,18 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.html,styles.css)
 <br></br><br></br>
 
-# # 27 - RING RING
+# # 28 - RING RING
 
 <p>Fortunately for you, I left out the alarm sound. But hopefully the signal color and the movement have served their purpose.</p>
 <img src="https://media.giphy.com/media/lKKafTusgzqJuLpwY0/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-sduizj?file=index.html,styles.css)
+<br></br><br></br>
+
+# # 29 - SEARCH FIELD
+
+<p>You won't find anything unless you start looking. So go ahead, write something in the search box.</p>
+<img src="https://media.giphy.com/media/DqmZUsLLmU3WIs8ACJ/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3obd3h?file=styles.css)
 <br></br><br></br>
