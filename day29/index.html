@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+    <title>day29</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="search">
+            <input type="text" class="searchfield" placeholder="Start typing ..." value=""/>
+            <button type="button" class="button"><span class="fa fa-search"></span></button>
+            <ul class="suggestion clearfix"></ul>
+        </div>
+    </div>
+    <script>
+        const searchField = document.querySelector('.searchfield');
+const suggestions = document.querySelector('.suggestion');
+
+searchField.addEventListener('keyup',function(){
+    var text = this.value;
+    if(text.length){
+        suggestions.classList.add('active');
+        // suggestions.append(`<li/>`,{html: `<b>`+ text + `</b>`}); this code by jquery
+        suggestions.innerHTML=`<li><b>${text}</b></li>`;
+        suggestions.innerHTML+=`<li><span>Search instead for </span><b>${text}</b></li>`;
+        suggestions.innerHTML+=`<li><b>${text}</b><span>- google search</span></li>`;
+    }else{
+        suggestions.classList.remove('active');
+        suggestions.innerHTML="";
+    }
+});
+
+
+    </script>
+</body>
+</html>
