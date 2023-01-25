@@ -217,3 +217,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mwjyjx?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 27 - RING RING
+
+<p>Fortunately for you, I left out the alarm sound. But hopefully the signal color and the movement have served their purpose.</p>
+<img src="https://media.giphy.com/media/lKKafTusgzqJuLpwY0/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-sduizj?file=index.html,styles.css)
+<br></br><br></br>
