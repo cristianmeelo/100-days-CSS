@@ -233,3 +233,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-sduizj?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3obd3h?file=styles.css)
 <br></br><br></br>
+
+# # 30 - RANDOM LINE
+
+<p> What can I say, it is a line. A line that moves and circles something. What should it be? That's for you to decide.</p>
+<img src="https://media.giphy.com/media/WFEzv5zTFAz5nHBccE/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-d8zphg?file=index.html,styles.css)
+<br></br><br></br>
