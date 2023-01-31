@@ -241,3 +241,16 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3obd3h?file=styles.c
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-d8zphg?file=index.html,styles.css)
 <br></br><br></br>
+
+# # 31 - PENDULUM WAVE
+
+<p> If you are not yet fascinated by mathematics, you should be now at the latest. Wonderful what a small calculations brings forth.</p>
+<img src="https://media.giphy.com/media/t72njg0i9oDswj1vou/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lypery?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
