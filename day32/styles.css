@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #00726D;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#D2592A", endColorstr="#FDB03A",GradientType=1 );
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.counter {
+  background: #fff;
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 6px 23px 0px rgba(0, 0, 0, 0.45);
+}
+
+.minus, .plus {
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  margin: 1px 3px;
+  height: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.minus:hover, .plus:hover {
+  background: rgba(167, 181, 196, 0.4509803922);
+}
+.minus:hover .icon[title=minus], .plus:hover .icon[title=minus] {
+  fill: #EC992A;
+}
+.minus:hover .icon[title=plus], .plus:hover .icon[title=plus] {
+  fill: #92D175;
+}
+.minus .icon[title=minus], .plus .icon[title=minus] {
+  fill: #C78126;
+}
+.minus .icon[title=plus], .plus .icon[title=plus] {
+  fill: #3DA379;
+}
+
+.number {
+  position: relative;
+  width: 130px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #6A85A0;
+  line-height: 40px;
+  text-align: center;
+}
+.number span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform-origin: 50% 50%;
+}
+.number span.appear {
+  -webkit-animation: appear 0.3s ease-in 0s 1;
+          animation: appear 0.3s ease-in 0s 1;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) perspective(1000px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) perspective(1000px);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) perspective(1000px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) perspective(1000px);
+  }
+}/*# sourceMappingURL=styles.css.map */
