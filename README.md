@@ -250,6 +250,18 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-d8zphg?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lypery?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 32 - COUNTER
+
+<p> I wonder how high or low is the maximum you can count here? The transitions are pure CSS, but I used some JS for the counting.</p>
+<img src="https://media.giphy.com/media/54pZkw0OXZcZvss1AD/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-5vfosd?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
 
 
 
