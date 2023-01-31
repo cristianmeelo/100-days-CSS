@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #4C4BA2;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.dots {
+    padding-top: 28px;
+    padding-left: 194px;
+}
+
+.dots .dot {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.dot-1 {
+    animation: dot 1016ms ease-in-out infinite;
+}
+
+.dot-2 {
+    animation: dot 1034ms ease-in-out infinite;
+}
+
+.dot-3 {
+    animation: dot 1052ms ease-in-out infinite;
+}
+.dot-4 {
+    animation: dot 1070ms ease-in-out infinite;
+}
+.dot-5 {
+    animation: dot 1088ms ease-in-out infinite;
+}
+.dot-6 {
+    animation: dot 1106ms ease-in-out infinite;
+}
+.dot-7 {
+    animation: dot 1124ms ease-in-out infinite;
+}
+.dot-8 {
+    animation: dot 1142ms ease-in-out infinite;
+}
+.dot-9 {
+    animation: dot 1160ms ease-in-out infinite;
+}
+.dot-10 {
+    animation: dot 1196ms ease-in-out infinite;
+}
+.dot-11 {
+    animation: dot 1214ms ease-in-out infinite;
+}
+.dot-12 {
+    animation: dot 1232ms ease-in-out infinite;
+}
+.dot-13 {
+    animation: dot 1250ms ease-in-out infinite;
+}
+.dot-14 {
+    animation: dot 1268ms ease-in-out infinite;
+}
+.dot-15 {
+    animation: dot 1286ms ease-in-out infinite;
+}
+.dot-16 {
+    animation: dot 1304ms ease-in-out infinite;
+}
+.dot-17 {
+    animation: dot 1322ms ease-in-out infinite;
+}
+.dot-18 {
+    animation: dot 1340ms ease-in-out infinite;
+}
+.dot-19 {
+    animation: dot 1358ms ease-in-out infinite;
+}
+.dot-20 {
+    animation: dot 1376ms ease-in-out infinite;
+}
+
+@keyframes dot {
+    0%, 100% {
+        transform: translate3d(50px, 0, 0);
+    }
+    50% {
+        transform: translate3d(-50px, 0, 0);
+    }
+}
