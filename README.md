@@ -258,6 +258,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-lypery?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-5vfosd?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 33 - SUNNY DAY
+
+<p> What else could be visible on this sunny day? Some birds, plains or even superman?</p>
+<img src="https://media.giphy.com/media/CJOBsfx5Fmo82Ah88r/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-y3xlop?file=index.html,styles.css)
+<br></br><br></br>
 
 
 
