@@ -274,6 +274,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-y3xlop?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-syyxuz?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 35 - LOADING CIRCLE
+
+<p> Is that a dark circle with a white stripe or the other way around? </p>
+<img src="https://media.giphy.com/media/8iq6NQcVaiC9GpCFaB/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-uvv6hm?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
