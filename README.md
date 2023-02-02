@@ -266,6 +266,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-5vfosd?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-y3xlop?file=index.html,styles.css)
 <br></br><br></br>
 
+# # 34 - HELLO
+
+<p> Yes, another animation of some text. But this time I used SVGs as a base. What kind of animation will you make? </p>
+<img src="https://media.giphy.com/media/CJOBsfx5Fmo82Ah88r/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-syyxuz?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
