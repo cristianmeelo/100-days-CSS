@@ -491,6 +491,17 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-uvv6hm?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ijfhkc?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=37> # 37 - CAROUSEL</h1>
+<p> Images, quotes, prices or logos. A carousel can be used in many ways and is an eye-catcher. </p>
+<img src="https://media.giphy.com/media/Sm3afNw2031EvvNxNr/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jxwghv?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
 
 
 
