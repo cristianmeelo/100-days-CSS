@@ -178,6 +178,9 @@
         <td> <a href="#27">link</a></td>
         <td><code>CHECKLIST</code></td>
         <td></td>
+        <td>37</td>
+        <td><a href="#37">link</a></td>
+        <td><code>CAROUSEL</code></td>
       </tr>
       <tr>
         <td>28</td>
@@ -497,15 +500,5 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ijfhkc?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jxwghv?file=index.html,styles.css)
 <br></br><br></br>
-
-
-
-
-
-
-
-
-
-
 
 
