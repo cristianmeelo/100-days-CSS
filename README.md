@@ -514,7 +514,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jxwghv?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-rphdzq?file=index.html,styles.css)
 <br></br><br></br>
 
-<h1 id=39> # 38 - MENU TOGGLE</h1>
+<h1 id=39> # 39 - MENU TOGGLE</h1>
 <p> What looks like another simple menu icon turns out to be a full-fledged navigation. </p>
 <img src="https://media.giphy.com/media/fKpxVoU2KnINdAV2BE/giphy.gif">
 
