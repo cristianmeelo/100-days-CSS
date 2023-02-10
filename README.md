@@ -196,6 +196,9 @@
         <td> <a href="#29">link</a></td>
         <td><code>SEARCH FIELD</code></td>
         <td></td>
+        <td>39</td>
+        <td><a href="#39">link</a></td>
+        <td><code>MENU TOGGLE</code></td>
       </tr>
       <tr>
         <td>30</td>
