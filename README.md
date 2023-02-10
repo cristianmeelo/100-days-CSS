@@ -501,4 +501,30 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ijfhkc?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-jxwghv?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=38> # 38 - LOGO TRANSITION</h1>
+<p> Logos don't always have to be static, as a transition or stylistic element they can have animations. </p>
+<img src="https://media.giphy.com/media/3KzZnSCt4E6pjmMJnX/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-rphdzq?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
