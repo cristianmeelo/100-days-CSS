@@ -20,8 +20,7 @@
   left: 52px;
   background: #ffd93c;
   border-radius: 50%;
-  -webkit-animation: moveRight 60s linear infinite alternate both;
-          animation: moveRight 60s linear infinite alternate both;
+  animation: moveRight 60s linear infinite alternate both;
 }
 
 .cloud-big, .cloud-small, .cloud-medium {
@@ -29,8 +28,7 @@
   z-index: 5;
   top: 118px;
   left: 280px;
-  -webkit-animation: moveLeft 60s linear infinite alternate both;
-          animation: moveLeft 60s linear infinite alternate both;
+  animation: moveLeft 60s linear infinite alternate both;
 }
 
 .cloud-medium {
@@ -43,29 +41,12 @@
   left: 195px;
 }
 
-@-webkit-keyframes moveLeft {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-300%);
-  }
-}
-
 @keyframes moveLeft {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-300%);
-  }
-}
-@-webkit-keyframes moveRight {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100%);
   }
 }
 @keyframes moveRight {

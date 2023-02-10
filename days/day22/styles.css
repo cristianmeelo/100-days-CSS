@@ -62,8 +62,7 @@
   stroke-dashoffset: 60;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
-  -webkit-animation: big 1.5s ease-out;
-          animation: big 1.5s ease-out;
+  animation: big 1.5s ease-out;
 }
 .circle-big .text {
   position: absolute;
@@ -113,13 +112,11 @@
 }
 .circle-small .progress.one {
   stroke-dashoffset: 80;
-  -webkit-animation: one 1.5s ease-out;
-          animation: one 1.5s ease-out;
+  animation: one 1.5s ease-out;
 }
 .circle-small .progress.two {
   stroke-dashoffset: 140;
-  -webkit-animation: two 1.5s ease-out;
-          animation: two 1.5s ease-out;
+  animation: two 1.5s ease-out;
 }
 .circle-small .text {
   position: absolute;
@@ -135,15 +132,6 @@
   color: #648192;
 }
 
-@-webkit-keyframes big {
-  from {
-    stroke-dashoffset: 326.56;
-  }
-  to {
-    stroke-dashoffset: 60;
-  }
-}
-
 @keyframes big {
   from {
     stroke-dashoffset: 326.56;
@@ -152,28 +140,12 @@
     stroke-dashoffset: 60;
   }
 }
-@-webkit-keyframes one {
-  from {
-    stroke-dashoffset: 232.36;
-  }
-  to {
-    stroke-dashoffset: 80;
-  }
-}
 @keyframes one {
   from {
     stroke-dashoffset: 232.36;
   }
   to {
     stroke-dashoffset: 80;
-  }
-}
-@-webkit-keyframes two {
-  from {
-    stroke-dashoffset: 232.36;
-  }
-  to {
-    stroke-dashoffset: 140;
   }
 }
 @keyframes two {

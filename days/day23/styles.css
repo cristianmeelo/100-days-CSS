@@ -26,10 +26,8 @@
   left: 175px;
   background: #fff;
   border-radius: 50%;
-  -webkit-animation: circle 1s ease-in-out;
-          animation: circle 1s ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: circle 1s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .line {
@@ -44,14 +42,12 @@
 .line.left {
   left: 50px;
   transform-origin: 100% 50%;
-  -webkit-animation: lines 1s ease-in-out 0.8s, line-left 1s steps(1) 0.8s;
-          animation: lines 1s ease-in-out 0.8s, line-left 1s steps(1) 0.8s;
+  animation: lines 1s ease-in-out 0.8s, line-left 1s steps(1) 0.8s;
 }
 .line.right {
   right: 50px;
   transform-origin: 0% 50%;
-  -webkit-animation: lines 1s ease-in-out 0.8s, line-right 1s steps(1) 0.8s;
-          animation: lines 1s ease-in-out 0.8s, line-right 1s steps(1) 0.8s;
+  animation: lines 1s ease-in-out 0.8s, line-right 1s steps(1) 0.8s;
 }
 
 .bracket {
@@ -61,10 +57,8 @@
   width: 4px;
   top: 165px;
   background: #fff;
-  -webkit-animation: bracket 0.4s ease-out 1.7s;
-          animation: bracket 0.4s ease-out 1.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: bracket 0.4s ease-out 1.7s;
+  animation-fill-mode: both;
 }
 .bracket:before, .bracket:after {
   position: absolute;
@@ -81,19 +75,15 @@
   top: 0;
   left: 0;
   transform-origin: 0% 50%;
-  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
-          animation: bracket-line 0.2s ease-out 2.1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: bracket-line 0.2s ease-out 2.1s;
+  animation-fill-mode: both;
 }
 .bracket.left:after {
   bottom: 0;
   left: 0;
   transform-origin: 0% 50%;
-  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
-          animation: bracket-line 0.2s ease-out 2.1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: bracket-line 0.2s ease-out 2.1s;
+  animation-fill-mode: both;
 }
 .bracket.right {
   right: 50px;
@@ -102,19 +92,15 @@
   top: 0;
   right: 0;
   transform-origin: 100% 50%;
-  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
-          animation: bracket-line 0.2s ease-out 2.1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: bracket-line 0.2s ease-out 2.1s;
+  animation-fill-mode: both;
 }
 .bracket.right:after {
   bottom: 0;
   right: 0;
   transform-origin: 100% 50%;
-  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
-          animation: bracket-line 0.2s ease-out 2.1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: bracket-line 0.2s ease-out 2.1s;
+  animation-fill-mode: both;
 }
 
 .big {
@@ -137,10 +123,8 @@
   height: 50px;
   background: #E16D6C;
   left: 0;
-  -webkit-animation: reveal 0.4s ease-out 1.7s;
-          animation: reveal 0.4s ease-out 1.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: reveal 0.4s ease-out 1.7s;
+  animation-fill-mode: both;
 }
 .hide.top {
   bottom: 49%;
@@ -165,29 +149,13 @@
 }
 .small.top {
   top: 140px;
-  -webkit-animation: small-top 0.5s ease-out 2.2s;
-          animation: small-top 0.5s ease-out 2.2s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: small-top 0.5s ease-out 2.2s;
+  animation-fill-mode: both;
 }
 .small.bottom {
   bottom: 140px;
-  -webkit-animation: small-bottom 0.5s ease-out 2.2s;
-          animation: small-bottom 0.5s ease-out 2.2s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-}
-
-@-webkit-keyframes circle {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  90%, 100% {
-    transform: scale(0);
-  }
+  animation: small-bottom 0.5s ease-out 2.2s;
+  animation-fill-mode: both;
 }
 
 @keyframes circle {
@@ -201,17 +169,6 @@
     transform: scale(0);
   }
 }
-@-webkit-keyframes lines {
-  0% {
-    transform: scaleX(0);
-  }
-  50% {
-    transform: scaleX(1);
-  }
-  100% {
-    transform: scaleX(0);
-  }
-}
 @keyframes lines {
   0% {
     transform: scaleX(0);
@@ -223,28 +180,12 @@
     transform: scaleX(0);
   }
 }
-@-webkit-keyframes line-left {
-  0% {
-    transform-origin: 100% 50%;
-  }
-  50%, 100% {
-    transform-origin: 0% 50%;
-  }
-}
 @keyframes line-left {
   0% {
     transform-origin: 100% 50%;
   }
   50%, 100% {
     transform-origin: 0% 50%;
-  }
-}
-@-webkit-keyframes line-right {
-  0% {
-    transform-origin: 0% 50%;
-  }
-  50%, 100% {
-    transform-origin: 100% 50%;
   }
 }
 @keyframes line-right {
@@ -255,28 +196,12 @@
     transform-origin: 100% 50%;
   }
 }
-@-webkit-keyframes bracket {
-  0% {
-    transform: scaleY(0);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
 @keyframes bracket {
   0% {
     transform: scaleY(0);
   }
   100% {
     transform: scaleY(1);
-  }
-}
-@-webkit-keyframes bracket-line {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
   }
 }
 @keyframes bracket-line {
@@ -287,14 +212,6 @@
     transform: scaleX(1);
   }
 }
-@-webkit-keyframes reveal {
-  0% {
-    transform: scaleY(1);
-  }
-  100% {
-    transform: scaleY(0);
-  }
-}
 @keyframes reveal {
   0% {
     transform: scaleY(1);
@@ -303,29 +220,9 @@
     transform: scaleY(0);
   }
 }
-@-webkit-keyframes small-top {
-  0% {
-    transform: translateX(-20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 @keyframes small-top {
   0% {
     transform: translateX(-20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes small-bottom {
-  0% {
-    transform: translateX(20px);
     opacity: 0;
   }
   100% {

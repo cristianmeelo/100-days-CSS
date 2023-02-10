@@ -38,112 +38,83 @@
 }
 
 .dot-1 {
-  -webkit-animation: dot 1016ms ease-in-out infinite;
-          animation: dot 1016ms ease-in-out infinite;
+  animation: dot 1016ms ease-in-out infinite;
 }
 
 .dot-2 {
-  -webkit-animation: dot 1034ms ease-in-out infinite;
-          animation: dot 1034ms ease-in-out infinite;
+  animation: dot 1034ms ease-in-out infinite;
 }
 
 .dot-3 {
-  -webkit-animation: dot 1052ms ease-in-out infinite;
-          animation: dot 1052ms ease-in-out infinite;
+  animation: dot 1052ms ease-in-out infinite;
 }
 
 .dot-4 {
-  -webkit-animation: dot 1070ms ease-in-out infinite;
-          animation: dot 1070ms ease-in-out infinite;
+  animation: dot 1070ms ease-in-out infinite;
 }
 
 .dot-5 {
-  -webkit-animation: dot 1088ms ease-in-out infinite;
-          animation: dot 1088ms ease-in-out infinite;
+  animation: dot 1088ms ease-in-out infinite;
 }
 
 .dot-6 {
-  -webkit-animation: dot 1106ms ease-in-out infinite;
-          animation: dot 1106ms ease-in-out infinite;
+  animation: dot 1106ms ease-in-out infinite;
 }
 
 .dot-7 {
-  -webkit-animation: dot 1124ms ease-in-out infinite;
-          animation: dot 1124ms ease-in-out infinite;
+  animation: dot 1124ms ease-in-out infinite;
 }
 
 .dot-8 {
-  -webkit-animation: dot 1142ms ease-in-out infinite;
-          animation: dot 1142ms ease-in-out infinite;
+  animation: dot 1142ms ease-in-out infinite;
 }
 
 .dot-9 {
-  -webkit-animation: dot 1160ms ease-in-out infinite;
-          animation: dot 1160ms ease-in-out infinite;
+  animation: dot 1160ms ease-in-out infinite;
 }
 
 .dot-10 {
-  -webkit-animation: dot 1196ms ease-in-out infinite;
-          animation: dot 1196ms ease-in-out infinite;
+  animation: dot 1196ms ease-in-out infinite;
 }
 
 .dot-11 {
-  -webkit-animation: dot 1214ms ease-in-out infinite;
-          animation: dot 1214ms ease-in-out infinite;
+  animation: dot 1214ms ease-in-out infinite;
 }
 
 .dot-12 {
-  -webkit-animation: dot 1232ms ease-in-out infinite;
-          animation: dot 1232ms ease-in-out infinite;
+  animation: dot 1232ms ease-in-out infinite;
 }
 
 .dot-13 {
-  -webkit-animation: dot 1250ms ease-in-out infinite;
-          animation: dot 1250ms ease-in-out infinite;
+  animation: dot 1250ms ease-in-out infinite;
 }
 
 .dot-14 {
-  -webkit-animation: dot 1268ms ease-in-out infinite;
-          animation: dot 1268ms ease-in-out infinite;
+  animation: dot 1268ms ease-in-out infinite;
 }
 
 .dot-15 {
-  -webkit-animation: dot 1286ms ease-in-out infinite;
-          animation: dot 1286ms ease-in-out infinite;
+  animation: dot 1286ms ease-in-out infinite;
 }
 
 .dot-16 {
-  -webkit-animation: dot 1304ms ease-in-out infinite;
-          animation: dot 1304ms ease-in-out infinite;
+  animation: dot 1304ms ease-in-out infinite;
 }
 
 .dot-17 {
-  -webkit-animation: dot 1322ms ease-in-out infinite;
-          animation: dot 1322ms ease-in-out infinite;
+  animation: dot 1322ms ease-in-out infinite;
 }
 
 .dot-18 {
-  -webkit-animation: dot 1340ms ease-in-out infinite;
-          animation: dot 1340ms ease-in-out infinite;
+  animation: dot 1340ms ease-in-out infinite;
 }
 
 .dot-19 {
-  -webkit-animation: dot 1358ms ease-in-out infinite;
-          animation: dot 1358ms ease-in-out infinite;
+  animation: dot 1358ms ease-in-out infinite;
 }
 
 .dot-20 {
-  -webkit-animation: dot 1376ms ease-in-out infinite;
-          animation: dot 1376ms ease-in-out infinite;
-}
-
-@-webkit-keyframes dot {
-  0%, 100% {
-    transform: translate3d(50px, 0, 0);
-  }
-  50% {
-    transform: translate3d(-50px, 0, 0);
-  }
+  animation: dot 1376ms ease-in-out infinite;
 }
 
 @keyframes dot {

@@ -116,21 +116,11 @@ form {
   left: 0;
   bottom: -3px;
   background-color: #6ece3b;
-  -webkit-animation: line 3s ease-out forwards;
-          animation: line 3s ease-out forwards;
+  animation: line 3s ease-out forwards;
 }
 
 .loader.loading {
   display: block;
-}
-
-@-webkit-keyframes line {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 @keyframes line {
@@ -144,17 +134,7 @@ form {
 .fa-rotate {
   font-size: 3rem;
   transform: translateX(-50%) translateY(-50%);
-  -webkit-animation: rotate 3s infinite linear;
-          animation: rotate 3s infinite linear;
-}
-
-@-webkit-keyframes rotate {
-  from {
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
-  }
-  to {
-    transform: translateX(-50%) translateY(-50%) rotate(359deg);
-  }
+  animation: rotate 3s infinite linear;
 }
 
 @keyframes rotate {

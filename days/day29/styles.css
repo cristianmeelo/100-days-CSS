@@ -112,10 +112,6 @@
   opacity: 1;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #A4B9CE;
-}
-
 :-moz-placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
   color: #A4B9CE;
 }

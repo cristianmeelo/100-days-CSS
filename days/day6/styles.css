@@ -183,7 +183,6 @@ img {
 
 .card .stats {
   flex: 3.75 1 37.5%;
-  display: -ms-grid;
   display: grid;
   grid-auto-rows: 1fr;
   gap: var(--gap-stats);
@@ -194,7 +193,6 @@ img {
   background-color: var(--clr-bg-stats);
   transition: all var(--transition-dur-stats) ease-in-out;
   cursor: pointer;
-  display: -ms-grid;
   display: grid;
   place-items: center;
   align-content: center;

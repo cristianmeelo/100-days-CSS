@@ -25,8 +25,7 @@
   height: 2px;
   background: #fff;
   margin: 15px 0;
-  -webkit-animation: line 0.6s ease-out both;
-          animation: line 0.6s ease-out both;
+  animation: line 0.6s ease-out both;
 }
 
 .text {
@@ -37,29 +36,17 @@
 .text .a1 {
   fill: #fff;
   stroke-width: 6;
-  -webkit-animation: fill 1.2s ease-in-out both;
-          animation: fill 1.2s ease-in-out both;
+  animation: fill 1.2s ease-in-out both;
 }
 .text .a2 {
   fill: none;
   stroke-width: 12;
-  -webkit-animation: fill 1.7s ease-in-out both;
-          animation: fill 1.7s ease-in-out both;
+  animation: fill 1.7s ease-in-out both;
 }
 .text .a3 {
   fill: none;
   stroke-width: 18;
-  -webkit-animation: fill 2.2s ease-in-out both;
-          animation: fill 2.2s ease-in-out both;
-}
-
-@-webkit-keyframes fill {
-  from {
-    stroke-dashoffset: 0;
-  }
-  to {
-    stroke-dashoffset: 270;
-  }
+  animation: fill 2.2s ease-in-out both;
 }
 
 @keyframes fill {
@@ -68,14 +55,6 @@
   }
   to {
     stroke-dashoffset: 270;
-  }
-}
-@-webkit-keyframes line {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
   }
 }
 @keyframes line {

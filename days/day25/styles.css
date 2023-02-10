@@ -44,8 +44,7 @@ svg:nth-child(1) {
 .mark svg {
   fill: #FFCC30;
   transform: translateY(-10px);
-  -webkit-animation: mark 1s linear infinite alternate;
-          animation: mark 1s linear infinite alternate;
+  animation: mark 1s linear infinite alternate;
 }
 
 .shadow {
@@ -57,24 +56,12 @@ svg:nth-child(1) {
   height: 30px;
   background: rgba(0, 0, 0, 0.2901960784);
   transform: rotateX(-70deg);
-  -webkit-animation: shadow 1s linear infinite alternate;
-          animation: shadow 1s linear infinite alternate;
-}
-
-@-webkit-keyframes mark {
-  to {
-    transform: translateY(0px);
-  }
+  animation: shadow 1s linear infinite alternate;
 }
 
 @keyframes mark {
   to {
     transform: translateY(0px);
-  }
-}
-@-webkit-keyframes shadow {
-  to {
-    transform: rotateX(-70deg) scale(0.7);
   }
 }
 @keyframes shadow {

@@ -86,31 +86,23 @@
 }
 
 #cb:checked ~ .button {
-  -webkit-animation: button 1.5s ease-in-out 1.7s;
-          animation: button 1.5s ease-in-out 1.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: button 1.5s ease-in-out 1.7s;
+  animation-fill-mode: both;
 }
 
 #cb:checked ~ .reset {
-  -webkit-animation: reset 1s ease-in-out 3.7s;
-          animation: reset 1s ease-in-out 3.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: reset 1s ease-in-out 3.7s;
+  animation-fill-mode: both;
 }
 
 #cb:checked ~ .circle, #cb:checked ~ .circle-outer {
-  -webkit-animation: circle 1s ease-in-out;
-          animation: circle 1s ease-in-out;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: circle 1s ease-in-out;
+  animation-fill-mode: both;
 }
 
 #cb:checked ~ .circle-outer {
-  -webkit-animation: circle 0.8s ease-in-out 0.2s;
-          animation: circle 0.8s ease-in-out 0.2s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation: circle 0.8s ease-in-out 0.2s;
+  animation-fill-mode: both;
 }
 
 #cb:checked ~ .mail {
@@ -121,29 +113,8 @@
 #cb:checked ~ .plane {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s ease-in-out 0.6s;
-  -webkit-animation: fly 2.4s ease-in-out;
-          animation: fly 2.4s ease-in-out;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-}
-
-@-webkit-keyframes fly {
-  0%, 50% {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-  60% {
-    transform: translate3d(-10px, 5px, 0) scale(1.05);
-  }
-  70% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 0;
-  }
-  100% {
-    transform: translate3d(300px, -150px, 0) scale(0.4);
-    opacity: 0;
-  }
+  animation: fly 2.4s ease-in-out;
+  animation-fill-mode: both;
 }
 
 @keyframes fly {
@@ -164,17 +135,6 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes circle {
-  0% {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-  20% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
 @keyframes circle {
   0% {
     transform: translate3d(0, 0, 0) scale(1);
@@ -183,32 +143,6 @@
     transform: scale(1.1);
   }
   100% {
-    transform: scale(0);
-  }
-}
-@-webkit-keyframes button {
-  0% {
-    transform: scale(1);
-  }
-  30% {
-    background: #1abc9c;
-    color: transparent;
-    width: 200px;
-    left: 100px;
-  }
-  50%, 60% {
-    width: 40px;
-    left: 180px;
-    transform: scale(1);
-  }
-  70% {
-    transform: scale(1.1);
-  }
-  100% {
-    width: 40px;
-    left: 180px;
-    background: #1abc9c;
-    color: transparent;
     transform: scale(0);
   }
 }
@@ -236,14 +170,6 @@
     background: #1abc9c;
     color: transparent;
     transform: scale(0);
-  }
-}
-@-webkit-keyframes reset {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 @keyframes reset {

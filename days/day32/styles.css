@@ -83,19 +83,7 @@
   transform-origin: 50% 50%;
 }
 .number span.appear {
-  -webkit-animation: appear 0.3s ease-in 0s 1;
-          animation: appear 0.3s ease-in 0s 1;
-}
-
-@-webkit-keyframes appear {
-  0% {
-    opacity: 0;
-    transform: scale(0.5) perspective(1000px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) perspective(1000px);
-  }
+  animation: appear 0.3s ease-in 0s 1;
 }
 
 @keyframes appear {
