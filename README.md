@@ -187,6 +187,9 @@
         <td> <a href="#28">link</a></td>
         <td><code>RING RING</code></td>
         <td></td>
+        <td>38</td>
+        <td><a href="#38">link</a></td>
+        <td><code>LOGO TRANSITION</code></td>
       </tr>
       <tr>
         <td>29</td>
