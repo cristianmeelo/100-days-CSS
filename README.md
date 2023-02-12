@@ -520,3 +520,10 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-rphdzq?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-aehuzp?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=40> # 40 - GALLERY</h1>
+<p> Take a closer look by clicking on the images. The animations are CSS only and precalculated. </p>
+<img src="https://media.giphy.com/media/FJRPITtD1Zd1NQ8qUQ/giphy.gif" width="67%">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ayewq2?file=index.html,styles.css)
+<br></br><br></br>
