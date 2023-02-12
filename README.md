@@ -205,6 +205,9 @@
         <td> <a href="#30">link</a></td>
         <td><code>RANDOM LINE</code></td>
         <td></td>
+        <td>40</td>
+        <td><a href="#40">link</a></td>
+        <td><code>GALLERY</code></td>
       </tr>
   </tbody>
   </table>
