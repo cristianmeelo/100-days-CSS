@@ -213,6 +213,29 @@
   </table>
 
 
+<table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>link</th>
+        <th>Title</th>
+        <th></th>
+        <th>Day</th>
+        <th>link</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+  <tbody>
+      <tr>
+        <td>41</td>
+        <td> <a href="#41">link</a></td>
+        <td><code>ERROR MODAL</code></td>
+        <td></td>
+      </tr>
+
+
+  </tbody>
+  </table>
 
 <br></br><br></br><br></br>
 
