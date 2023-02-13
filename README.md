@@ -530,3 +530,10 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-aehuzp?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ayewq2?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=41> # 41 - ERROR MODAL</h1>
+<p> Don't worry, it's not a real error, this is part of the challenge. </p>
+<img src="https://media.giphy.com/media/iWv7dXGMCc7SWsIhfs/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-geu7vq?file=index.html,styles.css)
+<br></br><br></br>
