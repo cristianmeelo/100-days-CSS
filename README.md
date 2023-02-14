@@ -560,3 +560,10 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ayewq2?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-geu7vq?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=42> # 42 - STARS </h1>
+<p> If you look closely, you can see the stars sparkling. And with a bit of luck, you might even spot a shooting star. Make a wish! </p>
+<img src="https://media.giphy.com/media/2oWb9lWsvTxUwwo4y0/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2m8k2k?file=index.html,styles.css)
+<br></br><br></br>
