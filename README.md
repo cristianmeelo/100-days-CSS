@@ -232,6 +232,12 @@
         <td><code>ERROR MODAL</code></td>
         <td></td>
       </tr>
+      <tr>
+      <td>42</td>
+      <td> <a href="#42">link</a></td>
+      <td><code>STARS</code></td>
+      <td></td>
+      </tr>
 
 
   </tbody>
