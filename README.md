@@ -238,6 +238,12 @@
       <td><code>STARS</code></td>
       <td></td>
       </tr>
+      <tr>
+      <td>43</td>
+      <td> <a href="#43">link</a></td>
+      <td><code>LIGHTBULB</code></td>
+      <td></td>
+      </tr>
 
 
   </tbody>
