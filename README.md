@@ -573,3 +573,12 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-geu7vq?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2m8k2k?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=43> # 43 - LIGHTBULB </h1>
+<p> Light on, light off, light on, light off, light on. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWJiMzFmNWYxNjYxY2EyZjVlOWIwY2JjMTIxMjE0YzlmNjRiYjBjYiZjdD1n/my2vDP0MyKQ11yy8Kj/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3h7dko?file=index.html,styles.css)
+<br></br><br></br>
+
+
