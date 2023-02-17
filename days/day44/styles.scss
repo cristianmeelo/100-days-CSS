@@ -1,0 +1,58 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #0c0c0c;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:hover .quadrato {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quadrato {
+  border: 1px solid whitesmoke;
+  transform-origin: 50% 50%;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@for $i from 1 through 20 {
+  $size: (10 * $i);
+  .quadrato#{$i} {
+    width: $size + px;
+    height: $size + px;
+    position: absolute;
+    top: ((400-$size)/2) + px;
+    left: ((400-$size)/2) + px;
+    animation-duration: 2s;
+    animation-delay: ($i/20) + s;
+    z-index: 0;
+  }
+}
