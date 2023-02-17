@@ -587,4 +587,9 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-2m8k2k?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3h7dko?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=44> # 44 - TWISTED PYRAMID </h1>
+<p> Impressive how quickly squares can become a spiral. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjFjMDkyY2FiZjAyMTY1MzVhNTE5NjVmOTA0YWQ1ZDYyZjQ3ZDg4ZSZjdD1n/vNZpK0AQffkxawbzoj/giphy.gif">
 
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wfbzwy?file=index.html,styles.css)
+<br></br><br></br>
