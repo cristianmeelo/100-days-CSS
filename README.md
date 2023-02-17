@@ -244,6 +244,12 @@
       <td><code>LIGHTBULB</code></td>
       <td></td>
       </tr>
+      <tr>
+      <td>44</td>
+      <td> <a href="#44">link</a></td>
+      <td><code>TWISTED PYRAMID</code></td>
+      <td></td>
+      </tr>
 
 
   </tbody>
