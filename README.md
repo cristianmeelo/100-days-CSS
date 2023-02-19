@@ -599,3 +599,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-3h7dko?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wfbzwy?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=45> # 45 - BUTTON </h1>
+<p> If normal hover effects aren't enough for you anymore, try this. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2YwODliMzM2YTQyZjlkNjdlNjNhM2ZhMzMxMWVjNGM3YjdjNzM1ZSZjdD1n/l1VcpzGhJiflqhreFZ/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-9vqe6f?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
