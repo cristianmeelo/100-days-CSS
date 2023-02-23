@@ -613,6 +613,19 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wfbzwy?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-9vqe6f?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=46> # 46 - IRIS CIRCLES </h1>
+<p> What do you see? Camera shutter, tornado, flower or dancing people from above? </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjcwZGI5OGU2MGY5Yzg4NTFiNTU5OWM5MDMyYzQ2YjdhMDdjNGZmNiZjdD1n/kXkp0gYBQ6c37aiCUX/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-pqsqls?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
+
+
 
 
 
