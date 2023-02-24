@@ -626,6 +626,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-9vqe6f?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-pqsqls?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=47> # 47 - PIXEL ART </h1>
+<p> You don't like Space Invaders? No problem, click on the pixels to create your own piece of art. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDI2MTViMjY3NjBhNWMxNWM2NzQ0Mzg3YWJiOGU4ODVhNjg1MmMzYyZjdD1n/MtxaEopHaUdKCtDCHA/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-agmjeo?file=index.html,styles.css)
+<br></br><br></br>
+
+
 
 
 
