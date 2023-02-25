@@ -268,6 +268,12 @@
       <td><code>PIXEL ART</code></td>
       <td></td>
       </tr>
+      <tr>
+      <td>48</td>
+      <td> <a href="#48">link</a></td>
+      <td><code>3D CUBE</code></td>
+      <td></td>
+      </tr>
 
 
   </tbody>
