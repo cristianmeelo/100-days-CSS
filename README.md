@@ -640,7 +640,12 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-agmjeo?file=index.ht
 <br></br><br></br>
 
 
+<h1 id=48> # 48 - 3D CUBE </h1>
+<p> With CSS you can work not only two-dimensional but also three-dimensional. Simple objects and animation are no problem. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjlkYzkzYzZkMTg0NGM4OTM3MDQ5NzJhZDM1YzczZDYzYWI5MDA3MiZjdD1n/Cii93YwOCuPk6ODwlr/giphy.gif">
 
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bmffao?file=index.html,styles.css)
+<br></br><br></br>
 
 
 
