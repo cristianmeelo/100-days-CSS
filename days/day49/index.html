@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>day49</title>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="dot">
+        <div class="ring"></div>
+      </div>
+    </div>
+    <script>
+      const frame = document.querySelector(".frame");
+      const dot = document.querySelector(".dot");
+
+      frame.addEventListener(`mousemove`, function (e) {
+        dot.style.top = e.clientY + "px";
+        dot.style.left = e.clientX + "px";
+      });
+
+      frame.addEventListener(`mouseleave`, function () {
+        dot.style.top = `50%`;
+        dot.style.left = `50%`;
+      });
+    </script>
+  </body>
+</html>
