@@ -274,6 +274,12 @@
       <td><code>3D CUBE</code></td>
       <td></td>
       </tr>
+      <tr>
+      <td>49</td>
+      <td> <a href="#49">link</a></td>
+      <td><code>CSS FOLLOW</code></td>
+      <td></td>
+      </tr>
 
 
   </tbody>
@@ -653,7 +659,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-agmjeo?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bmffao?file=index.html,styles.css)
 <br></br><br></br>
 
-<h1 id=49> # 49 - CSS FOLOOW </h1>
+<h1 id=49> # 49 - CSS FOLLOW </h1>
 <p> It wouldn't be a big challenge to implement that with JS only, but with CSS you have to come up with a good solution. </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWM3N2FiMTUyOTg4OTBjNDIxZTI3YzA5MTZlMTk5ZGVhMzkwN2RhZCZjdD1n/JqN5ftS7k5zXbCK2pA/giphy.gif">
 
