@@ -665,3 +665,11 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bmffao?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-fq8ykk?file=index.html,styles.css)
 <br></br><br></br>
+
+
+<h1 id=50> # 50 - EASTER EGG </h1>
+<p> Are you familier with the 12 Basic Principles of Animation? This is an example for squash and stretch. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTNlYmNjZGNlMTNmZDNjM2Y2ZTg5YjZiZDU0OTY5ZWZlN2RlYjFhZSZjdD1n/dgMpd2G0xMJonBCS2Z/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-usfnis?file=index.html,styles.css)
+<br></br><br></br>
