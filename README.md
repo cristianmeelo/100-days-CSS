@@ -677,3 +677,17 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-fq8ykk?file=index.ht
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-usfnis?file=index.html,styles.css)
 <br></br><br></br>
+
+
+<h1 id=51> # 51 - CSS COUNTER </h1>
+<p> You think with CSS you can't count to a thousand and even pause the whole thing at the push of a button? Then take a look at the code. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODk1YWQ4M2ViN2JhNzliNzMyNzU5Mjk4N2NhNjViZTE2NzZiYzdjMyZjdD1n/9SQqnuTOmUWTraBsON/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wh7u9x?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
+
