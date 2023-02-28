@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>day51</title>
+  </head>
+  <div class="frame">
+    <div class="container">
+      <div class="timer">
+        <span>0 </span>
+        <span>0 </span>
+        <span>0 </span>
+        <span>0 </span>
+      </div>
+      <div class="buttons">
+        <button id="start" onclick="start()"></button>
+        <button id="stop" onclick="stop()"></button>
+      </div>
+    </div>
+    <script>
+      var sp = document.getElementsByTagName("span");
+      var btn_start = document.getElementById("start");
+      var btn_stop = document.getElementById("stop");
+      var t;
+      var ms = 0,
+        s = 0,
+        mn = 0,
+        h = 0,
+        d = 0;
+
+      function start() {
+        t = setInterval(update_chrono, 100);
+        btn_start.classList.add("hide-start");
+        btn_start.classList.remove("show-start");
+        setTimeout(() => {
+          btn_start.style.display = "none";
+          btn_stop.style.display = "block";
+          btn_stop.classList.add("show-stop");
+          btn_stop.classList.remove("hide-stop");
+        }, 300);
+      }
+      function update_chrono() {
+        ms += 1;
+
+        if (ms == 10) {
+          ms = 1;
+          s += 1;
+        }
+
+        if (s == 60) {
+          s = 0;
+          mn += 1;
+        }
+        if (mn == 60) {
+          mn = 0;
+          h += 1;
+        }
+        if (h == 24) {
+          h = 0;
+          d += 1;
+        }
+
+        sp[0].innerHTML = d;
+        sp[1].innerHTML = h;
+        sp[2].innerHTML = mn;
+        sp[3].innerHTML = s;
+      }
+
+      function stop() {
+        clearInterval(t);
+        btn_stop.classList.add("hide-stop");
+        btn_stop.classList.remove("show-stop");
+        setTimeout(() => {
+          btn_start.style.display = "block";
+          btn_stop.style.display = "none";
+          btn_start.classList.add("show-start");
+          btn_start.classList.remove("hide-start");
+        }, 300);
+      }
+    </script>
+  </div>
+</html>

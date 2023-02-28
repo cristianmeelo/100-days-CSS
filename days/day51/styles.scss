@@ -1,0 +1,152 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #313c46;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+.timer {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0 #333;
+  color: #4d8fba;
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  cursor: pointer;
+  display: block;
+}
+
+.hide-start {
+  animation: hide-start 0.3s forwards;
+}
+
+@keyframes hide-start {
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.show-start {
+  animation: show-start 0.3s forwards;
+}
+
+@keyframes show-start {
+  0% {
+    transform: scale(0);
+  }
+
+  90% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#stop {
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  display: none;
+}
+
+.hide-stop {
+  animation: hide-start 0.3s forwards;
+}
+
+@keyframes hide-start {
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.show-stop {
+  animation: show-stop 0.3s forwards;
+}
+
+@keyframes show-stop {
+  0% {
+    transform: scale(0);
+  }
+
+  90% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#stop:before {
+  content: "";
+  width: 7px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: inline-block;
+}
+
+#stop:after {
+  content: "";
+  width: 7px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: inline-block;
+}
