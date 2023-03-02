@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  .frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #27AE60;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    .ring {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      top: 160px;
+      left: 160px;
+
+      .dot {
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        top: 40px;
+        left: 40px;
+
+        .fill {
+          width: 8px;
+          height: 8px;
+          background: #fff;
+          border-radius: 50px;
+        }
+      }
+    }
+
+    @for $i from 1 through 72 {
+      .ring-1 .dot-#{$i} {
+        transform: translate3d(0, -40px, 0) rotate(#{($i * 20)}deg);
+        transform-origin: 0 40px;
+      }
+
+      .ring-2 .dot-#{$i} {
+        transform: translate3d(0, -51px, 0) rotate(#{($i * 15)}deg);
+        transform-origin: 0 51px;
+      }
+
+      .ring-3 .dot-#{$i} {
+        transform: translate3d(0, -62px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 62px;
+      }
+
+      .ring-4 .dot-#{$i} {
+        transform: translate3d(0, -73px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 73px;
+      }
+
+      .ring-5 .dot-#{$i} {
+        transform: translate3d(0, -84px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 84px;
+      }
+
+      .ring-6 .dot-#{$i} {
+        transform: translate3d(0, -95px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 95px;
+      }
+
+      .ring-7 .dot-#{$i} {
+        transform: translate3d(0, -106px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 106px;
+      }
+
+      .ring-8 .dot-#{$i} {
+        transform: translate3d(0, -117px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 117px;
+      }
+
+      .ring-9 .dot-#{$i} {
+        transform: translate3d(0, -128px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 128px;
+      }
+
+      .ring-10 .dot-#{$i} {
+        transform: translate3d(0, -139px, 0) rotate(#{($i * 12)}deg);
+        transform-origin: 0 139px;
+      }
+    }
+
+    @for $i from 1 through 10 {
+      .ring-#{$i} .fill{
+        animation: pulsate 2s ease-in-out #{($i * 0.3333333333)}s alternate infinite both;
+      }
+    }
+  
+
+    @keyframes pulsate {
+      0% {
+        transform: scale(0);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  }
+}
