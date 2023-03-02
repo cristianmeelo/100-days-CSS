@@ -701,6 +701,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wh7u9x?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-x3nevy?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=53> # 53 - RANGE SLIDER </h1>
+<p> Let's face it, the plane HTML inputs are often boring. But you can easily spice them up with some CSS. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGVkYjcwMjM1MWE5ODUyZDA5OGIzM2FkNDNjMzhmNjkyMWM2NTJkMiZjdD1n/ksPTkyJ5gwMxHHXfuQ/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ropwde?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
