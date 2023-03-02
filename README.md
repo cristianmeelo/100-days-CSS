@@ -690,6 +690,14 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wh7u9x?file=index.ht
 <br></br><br></br>
 
 
+<h1 id=52> # 52 - DOT WAVE </h1>
+<p> I feel like I go into hypnosis if I stare at it too long. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjkyM2VjNjM5ZWQ3MWIxNDIyZTIxNDUxN2JhNGMzYzEyYjFjMTg1OSZjdD1n/lbaEKRc0ABJC1kk1PD/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-x3nevy?file=index.html,styles.css)
+<br></br><br></br>
+
+
 
 
 
