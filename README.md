@@ -250,6 +250,10 @@
       <td> <a href="#43">link</a></td>
       <td><code>LIGHTBULB</code></td>
       <td></td>
+            <td>53</td>
+      <td> <a href="#53">link</a></td>
+      <td><code> RANGE SLIDER</code></td>
+      <td></td>
       </tr>
       <tr>
       <td>44</td>
