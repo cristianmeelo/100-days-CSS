@@ -708,6 +708,15 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-x3nevy?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ropwde?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=54> # 54 - WAVES </h1>
+<p> Even the smallest animations and tweeks, can have a large impact. For example a mesmerizing background animation. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4ZmMyYjIyNzA1ZDc4NTJkMzc5MTQ2MTQ3MjFjMjUyN2RiYTczNSZjdD1n/fzjGcSu9xXhJ9XhzaD/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-6adayi?file=styles.css,index.html)
+<br></br><br></br>
+
+
+
 
 
 
