@@ -250,7 +250,7 @@
       <td> <a href="#43">link</a></td>
       <td><code>LIGHTBULB</code></td>
       <td></td>
-            <td>53</td>
+      <td>53</td>
       <td> <a href="#53">link</a></td>
       <td><code> RANGE SLIDER</code></td>
       <td></td>
@@ -260,6 +260,9 @@
       <td> <a href="#44">link</a></td>
       <td><code>TWISTED PYRAMID</code></td>
       <td></td>
+      <td>54</td>
+      <td> <a href="#54">link</a></td>
+      <td><code> WAVES</code></td>
       </tr>
       <tr>
       <td>45</td>
