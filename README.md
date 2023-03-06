@@ -723,6 +723,17 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-6adayi?file=styles.c
 <br></br><br></br>
 
 
+<h1 id=55> # 55 - THERMOSTAT </h1>
+<p> It's getting hot in here! Direct visual feedback will help your users understand their actions. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjc3MjI3MWVkNDU5NTJjZWUzZGNhNDllNzNhMzJkOTg2MjkzZjY2MCZjdD1n/Bna11ITkJeeMpJC1Gs/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-kwpcrp?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
 
 
 
