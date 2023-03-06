@@ -687,7 +687,6 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-bmffao?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-fq8ykk?file=index.html,styles.css)
 <br></br><br></br>
 
-
 <h1 id=50> # 50 - EASTER EGG </h1>
 <p> Are you familier with the 12 Basic Principles of Animation? This is an example for squash and stretch. </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTNlYmNjZGNlMTNmZDNjM2Y2ZTg5YjZiZDU0OTY5ZWZlN2RlYjFhZSZjdD1n/dgMpd2G0xMJonBCS2Z/giphy.gif">
@@ -695,14 +694,12 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-fq8ykk?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-usfnis?file=index.html,styles.css)
 <br></br><br></br>
 
-
 <h1 id=51> # 51 - CSS COUNTER </h1>
 <p> You think with CSS you can't count to a thousand and even pause the whole thing at the push of a button? Then take a look at the code. </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODk1YWQ4M2ViN2JhNzliNzMyNzU5Mjk4N2NhNjViZTE2NzZiYzdjMyZjdD1n/9SQqnuTOmUWTraBsON/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-wh7u9x?file=index.html,styles.css)
 <br></br><br></br>
-
 
 <h1 id=52> # 52 - DOT WAVE </h1>
 <p> I feel like I go into hypnosis if I stare at it too long. </p>
@@ -732,6 +729,16 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-6adayi?file=styles.c
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-kwpcrp?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=56> # 56 - FLOWER </h1>
+<p> When was the last time you picked a daisy? </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDA2NjQ2ZDFlYjY1ZjgyNTJlZjE3NDQ0Yzg1ZDBiZWQxZjY5YzU0YSZjdD1n/MII8K7O9Bzv55a3Fyx/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-kdvwpj?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
 
 
 
