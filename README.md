@@ -269,6 +269,9 @@
       <td> <a href="#45">link</a></td>
       <td><code>BUTTON</code></td>
       <td></td>
+      <td>55</td>
+      <td> <a href="#55">link</a></td>
+      <td><code> THERMOSTAT</code></td>
       </tr>
       <tr>
       <td>46</td>
