@@ -261,7 +261,7 @@
       <td><code>TWISTED PYRAMID</code></td>
       <td></td>
       <td>54</td>
-      <td> <a href="#54">link</a></td>
+      <td><a href="#54">link</a></td>
       <td><code> WAVES</code></td>
       </tr>
       <tr>
@@ -270,7 +270,7 @@
       <td><code>BUTTON</code></td>
       <td></td>
       <td>55</td>
-      <td> <a href="#55">link</a></td>
+      <td><a href="#55">link</a></td>
       <td><code> THERMOSTAT</code></td>
       </tr>
       <tr>
@@ -278,6 +278,9 @@
       <td> <a href="#46">link</a></td>
       <td><code>IRIS CIRCLES</code></td>
       <td></td>
+      <td>56</td>
+      <td><a href="#56">link</a></td>
+      <td><code> FLOWER</code></td>
       </tr>
       <tr>
       <td>47</td>
