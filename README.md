@@ -284,9 +284,12 @@
       </tr>
       <tr>
       <td>47</td>
-      <td> <a href="#47">link</a></td>
+      <td><a href="#47">link</a></td>
       <td><code>PIXEL ART</code></td>
       <td></td>
+      <td>57</td>
+      <td><a href="#57">link</a></td>
+      <td><code> ICOSAHEDRON</code></td>
       </tr>
       <tr>
       <td>48</td>
