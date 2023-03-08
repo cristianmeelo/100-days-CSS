@@ -738,6 +738,19 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-kdvwpj?file=index.ht
 <br></br><br></br>
 
 
+<h1 id=57> # 57 - ICOSAHEDRON </h1>
+<p> This time a slightly more complicated basic body as a 3D object. Can you figure out how the triangles are made? </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGE0NTI1ODQ5MTgwODcwZDZkOGNlYzc3ODA5ZWE5NDZjMTg0YzA4ZCZjdD1n/qqCKlvKQDiPpR2ewb8/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-8zthlg?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
+
+
+
 
 
 
