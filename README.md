@@ -752,6 +752,13 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-8zthlg?file=index.ht
 <br></br><br></br>
 
 
+<h1 id=58> # 58 - 3D SHPERE </h1>
+<p> With a little creativity, you can create these crazy 3D bodies with CSS. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNiYTBkODYxMWM1ZDA0NTZhMmVhODE2ZWVjZThiZGRmMmNiOTFlNyZjdD1n/6PpQpSGWY64Ip40gXp/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-dgse7k?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
