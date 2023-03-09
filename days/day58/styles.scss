@@ -1,0 +1,161 @@
+$bg-color: #5423C2;
+$form-color: #fff;
+
+$diameter: 250px;
+$speed: 6s;
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.frame{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: $bg-color;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    display: grid;
+    place-content: center;
+}
+.form{
+    width: $diameter;
+    height: $diameter;
+    transform-style: preserve-3d;
+    transform: rotateX(-22deg);
+    transition: transform 1s ease-in-out;
+    &:hover{
+        transform: rotateX(22deg);
+    }
+}
+[class^="slice"]{
+    position: absolute;
+    border-radius: 50%;
+    background-color: $form-color;
+    border: 2px solid $bg-color;
+}
+.slice-21{
+    width: $diameter;
+    height: $diameter;
+    transform: rotateX(90deg);
+    animation: base-slice $speed ease-in-out infinite;
+    @keyframes base-slice {
+        0%, 90%, 100% {transform: rotateX(90deg) scale(0);}
+        10%, 80% {transform: rotateX(90deg) scale(1.2);}
+        15% {transform: rotateX(90deg) scale(0.9);}
+        20%, 75% {transform: rotateX(90deg) scale(1);}
+    }
+}
+@for $i from 1 through 10 {
+    $size: $diameter - (2 * $i * $i);
+    $offset: ($i * 15) - ($i * $i /2);
+    $sliceBottom: $i;
+    $sliceTop: $i + 10;
+    .slice-#{$sliceBottom},.slice-#{$sliceTop}{
+        width: $size;
+        height: $size;
+        top: ($diameter - $size)/2;
+        left: ($diameter - $size)/2;
+    }
+    .slice-#{$sliceBottom}{
+        transform: translateY($offset+px) rotateX(90deg);
+        animation: anim-#{$sliceBottom} $speed ease-in-out infinite;
+    }
+    .slice-#{$sliceTop}{
+        transform: translateY(-$offset+px) rotateX(90deg);
+        animation: anim-#{$sliceTop} $speed ease-in-out infinite;
+    }
+    @keyframes anim-#{$sliceBottom} {
+        0%, 19% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 0;
+        }
+        20% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 1;
+            border: 2px solid $form-color;
+        }
+        30% {
+            transform: translateY(($offset + ($i * 5))+px) rotateX(90deg);
+            border: 2px solid $bg-color;
+        }
+        35% {
+            transform: translateY(($offset - ($i * 2))+px) rotateX(90deg);
+        }
+        40% {
+            transform: translateY(($offset + ($i * 1))+px) rotateX(90deg);
+        }
+        45% {
+            transform: translateY(($offset - ($i * .5))+px) rotateX(90deg);
+        }
+        50%, 65% {
+            transform: translateY(($offset)+px) rotateX(90deg);
+        }
+        70% {
+            transform: translateY(($offset + ($i * 4))+px) rotateX(90deg);
+            border: 2px solid $bg-color;
+        }
+        80% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 1;
+            border: 2px solid $form-color;
+        } 
+        81%, 100% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes anim-#{$sliceTop} {
+        0%, 19% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 0;
+        }
+        20% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 1;
+            border: 2px solid $form-color;
+        }
+        30% {
+            transform: translateY((-$offset - ($i * 5))+px) rotateX(90deg);
+            border: 2px solid $bg-color;
+        }
+        35% {
+            transform: translateY((-$offset + ($i * 2))+px) rotateX(90deg);
+        }
+        40% {
+            transform: translateY((-$offset - ($i * 1))+px) rotateX(90deg);
+        }
+        45% {
+            transform: translateY((-$offset + ($i * .5)))+px rotateX(90deg);
+        }
+        50%, 65% {
+            transform: translateY((-$offset)+px) rotateX(90deg);
+        }
+        70% {
+            transform: translateY((-$offset - ($i * 4))+px) rotateX(90deg);
+            border: 2px solid $bg-color;
+        }
+        80% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 1;
+            border: 2px solid $form-color;
+        } 
+        81%, 100% {
+            transform: translateY(0) rotateX(90deg);
+            opacity: 0;
+        }
+    }
+}
