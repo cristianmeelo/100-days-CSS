@@ -296,6 +296,10 @@
       <td> <a href="#48">link</a></td>
       <td><code>3D CUBE</code></td>
       <td></td>
+      <td>58</td>
+      <td><a href="#58">link</a></td>
+      <td><code> 3D SPHERE</code></td>
+      </tr>
       </tr>
       <tr>
       <td>49</td>
@@ -752,7 +756,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-8zthlg?file=index.ht
 <br></br><br></br>
 
 
-<h1 id=58> # 58 - 3D SHPERE </h1>
+<h1 id=58> # 58 - 3D SPHERE </h1>
 <p> With a little creativity, you can create these crazy 3D bodies with CSS. </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNiYTBkODYxMWM1ZDA0NTZhMmVhODE2ZWVjZThiZGRmMmNiOTFlNyZjdD1n/6PpQpSGWY64Ip40gXp/giphy.gif">
 
