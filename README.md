@@ -300,12 +300,15 @@
       <td><a href="#58">link</a></td>
       <td><code> 3D SPHERE</code></td>
       </tr>
-      </tr>
       <tr>
       <td>49</td>
       <td> <a href="#49">link</a></td>
       <td><code>CSS FOLLOW</code></td>
       <td></td>
+      <td>59</td>
+      <td><a href="#59">link</a></td>
+      <td><code> SLICE TRANSITION</code></td>
+      </tr>
       </tr>
       <tr>
       <td>50</td>
