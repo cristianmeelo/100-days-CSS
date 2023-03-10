@@ -755,13 +755,20 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-kdvwpj?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-8zthlg?file=index.html,styles.css)
 <br></br><br></br>
 
-
 <h1 id=58> # 58 - 3D SPHERE </h1>
 <p> With a little creativity, you can create these crazy 3D bodies with CSS. </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNiYTBkODYxMWM1ZDA0NTZhMmVhODE2ZWVjZThiZGRmMmNiOTFlNyZjdD1n/6PpQpSGWY64Ip40gXp/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-dgse7k?file=index.html,styles.css)
 <br></br><br></br>
+
+<h1 id=59> # 59 - SLICE TRANSITION </h1>
+<p> Not the everyday transition between two images. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWQxZWZhZDk3MGEyNzAyZjlhMzFlZWJjYWE0YTkyMTgyMzhiYmVmNCZjdD1n/CXToALV4seWYUo75Cv/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-b9wdjh?file=index.html,styles.css)
+<br></br><br></br>
+
 
 
 
