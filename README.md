@@ -312,8 +312,12 @@
       </tr>
       <tr>
       <td>50</td>
-      <td> <a href="#50">link</a></td>
+      <td><a href="#50">link</a></td>
       <td><code>EASTER EGG</code></td>
+      <td></td>
+      <td>60</td>
+      <td><a href="#60">link</a></td>
+      <td><code> BLURRY OVERLAY</code></td>
       <td></td>
       </tr>
   </tbody>
