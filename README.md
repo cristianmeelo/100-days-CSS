@@ -772,6 +772,16 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-dgse7k?file=index.ht
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-b9wdjh?file=index.html,styles.css)
 <br></br><br></br>
 
+<h1 id=60> # 60 - BLURRY OVERLAY </h1>
+<p> Backdrop blur effects are very trendy, but they are difficult to implement with CSS without any tricks. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjg4N2JhMzM2ZjY1NTVmNmU1YjZjNTFkNmFmNzkxY2RiNmI3MGY3ZiZjdD1n/UoGa7lwyvoOJZf0FVp/giphy.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-zzw5bu?file=index.html,styles.css)
+<br></br><br></br>
+
+
+
+
 
 
 
