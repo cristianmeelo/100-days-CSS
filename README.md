@@ -781,7 +781,7 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-b9wdjh?file=index.ht
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTYzYjEwMGRhYmIxYTFiOWNmMTlmYzBmNDkzYTQ5NWYyZWQ5NDBhYyZjdD1n/spVxBEnSGubatS3tnP/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-x9bnyb?file=index.html,styles.css)
-<br></br><br></br>
+<br></br><br></br> 
 
 
 
