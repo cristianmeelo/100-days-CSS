@@ -340,6 +340,12 @@
         <td><a href="#61">link</a></td>
         <td><code>CSS GRADIENT TRANSITION</code></td>
       </tr>
+      <tr>
+        <td>62</td>
+        <td><a href="#62">link</a></td>
+        <td><code>PRICE TABLE</code></td>
+        <td></td>
+      </tr>
   </tbody>
   </table>
 
