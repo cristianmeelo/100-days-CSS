@@ -346,6 +346,12 @@
         <td><code>PRICE TABLE</code></td>
         <td></td>
       </tr>
+      <tr>
+        <td>63</td>
+        <td><a href="#63">link</a></td>
+        <td><code>HYPNOTIC RING</code></td>
+        <td></td>
+      </tr>
   </tbody>
   </table>
 
