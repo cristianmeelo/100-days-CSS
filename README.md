@@ -716,3 +716,9 @@ Code: [StackBlitz](https://stackblitz.com/edit/web-platform-x9bnyb?file=index.ht
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTMyZTk3MjRlZTI5NzdhYmM4ZWVlMTMwMDU3ZGU1Y2MwODg1YTk5NSZjdD1n/WUsoIqgC1bJibRIPYn/giphy.gif">
 
 Code: [StackBlitz](https://stackblitz.com/edit/web-platform-mxkm9f?file=index.html,styles.css) <br></br><br></br>
+
+<h1 id=63> # 63 - Hypnotic Ring </h1>
+<p> A few animated dots on circles and you find yourself in the longest tunnel in the world. </p>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODZkYjljNDU0NDgxNzg0Y2IxNzAxNGNjNjY5NDEzYzRmNTVkMDk3ZiZjdD1n/t6lkP5LpCS2Ae3j9S1/giphy-downsized-large.gif">
+
+Code: [StackBlitz](https://stackblitz.com/edit/web-platform-ws8scy?file=index.html,styles.css) <br></br><br></br>
